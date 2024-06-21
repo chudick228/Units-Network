@@ -54,7 +54,7 @@ async def transaction_send(pk):
                     await tools.wait_until_tx_finished(tx_hash, web3)
                     # if not indicator:
                     #     raise BaseException
-                    await tools.sleeping(random.randint(2, 10) + random.randint(3, 10))
+                    await tools.sleeping(random.randint(2, 10) + random.randint(3, 10))        # you can change these params in order to optimise the halt between transactions 
                 except ValueError:
                     balance = await web3.eth.get_balance(wallet)
                     if balance < 4 * 10**13:
