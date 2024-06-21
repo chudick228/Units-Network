@@ -9,8 +9,8 @@ If there are any problems you can dm me via telegram https://t.me/smiling_kitten
 
 And also subscribe on X for my future projects https://x.com/meowdegenerate 
 
+/RU
 
----RU---
 Софт для совершения транзакций в тестнете Units Network
 
 Работает асинхронно => Можно делать ферму на 100, 1000 аккаунтов.
